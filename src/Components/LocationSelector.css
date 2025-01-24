@@ -1,0 +1,29 @@
+/* Styles for the location dropdown */
+.location-dropdown {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #fc8019; /* Orange for text */
+}
+
+.location-dropdown .fa-angle-down {
+    color: #fc8019; /* Orange icon color */
+    transition: transform 0.3s ease;
+}
+
+.location-dropdown .fw-bold {
+    font-size: 14px;
+    color: #fc8019; /* Orange text */
+}
+
+/* Styles for dropdown menu */
+.dropdown-menu {
+    width: 100%;
+    background-color: white; /* White background for dropdown */
+    color: #fc8019; /* Dropdown item text color */
+}
+
+.dropdown-item:hover {
+    background-color: #fce1d6; /* Lighter orange for hover effect */
+    color: #fc8019;
+}

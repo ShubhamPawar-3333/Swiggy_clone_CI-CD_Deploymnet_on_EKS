@@ -1,0 +1,51 @@
+/* Styles for the navigation bar */
+.navbar {
+    font-size: 14px;
+    background-color: white; /* White background */
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: auto;
+    padding-right: 10px;
+}
+
+.nav-link i {
+    margin-right: 5px;
+    color: #fc8019; /* Orange for icons */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+.navbar-nav .nav-link {
+    color: #fc8019; /* Orange text */
+}
+
+/* Hamburger menu */
+.navbar-toggler-icon {
+    background-color: #fc8019; /* Orange toggle button */
+    border-radius: 4px;
+}
+
+/* On smaller screens, make sure nav items are stacked vertically */
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+
+/* #Nav-logo p:hover{
+    color: #e78838;
+    cursor: pointer;
+}
+#Nav-icons p:hover{
+    color: #e78838;
+    cursor: pointer;
+} */
